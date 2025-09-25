@@ -1,96 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <Header>
-        <img src="" alt="">
-        <nav>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </nav>
-        <div class="header-bio">
-            <h3></h3>
-            <h1></h1>
-            <h2></h2>
-            <a href=""></a>
+        <div class="div-header">
+            <nav>
+                <a id="perfil">Perfil</a>
+                <a id="skills">Skills</a>
+                <a id="projetos">Projetos</a>
+                <a id="contatos">Contatos</a>
+            </nav>
+            <div class="header-bio">
+                <h3>Portifólio</h3>
+                <h1>Miguel Lima</h1>
+                <h2>Um estudante Júnior de 17 anos que
+                    cursa Técnico de Desenvolvimento de
+                    sistemas. </h2>
+                <a href="https://www.youtube.com/watch?v=U2Fjfqm-7g8" target="_blank">Leia mais sobre mim</a>
+            </div>
         </div>
     </Header>
 
-    <section id="perfil">
-        <div class="perfil-img">
-            <img src="" alt="">
-            <div class="div-apresentacao">
-                <img src="" alt="">
-                <p></p>
-            </div>
-        </div>
-            <h1></h1>
-            <p></p>
-    </section>
+    <main>
+        <div class="div-main">
+            <section id="perfil">
+                <div class="perfil-img">
+                    <img src="/img/Icon.png" alt="Perfil Icon">
+                    <div class="div-apresentacao">
+                        <img src="/img/Seta.png" alt="Seta">
+                        <p>Olá! Eu sou o Miguel, dono deste portifólio.</p>
+                    </div>    
+                </div>
+                <div class="perfil-conteudo">
+                    <h1>Eu sou estudante de Técnico de Desenvolvimentos de Sistemas do Senai!</h1>
+                    <p>Atualmente, estou há quase um ano em formação na área de tecnologia, com foco em desenvolvimento
+                        web.
+                        No início, enfrentei alguns desafios de adaptação, mas rapidamente desenvolvi interesse e
+                        afinidade pela
+                        área. Durante esse período, adquiri conhecimentos em Arquitetura de Redes, HTML, CSS, JavaScript
+                        e Banco
+                        de Dados. Tenho maior foco por HTML e CSS, e pretendo seguir carreira como Web Designer, unindo
+                        criatividade
+                        e técnica para criar experiências visuais e funcionais na web.</p>
+                </div>
+            </section>
 
-    <section id="skills">
-        <h1></h1>
-        <div class="cards-skills">
-            <div class="card-SENAI">
-                <h1></h1>
-                <p></p>
-            </div>
-            <div class="card-UNIMAR">
-                <h1></h1>
-                <p></p>
-            </div>
-        </div>
+            <section id="skills">
+                <h1>Experiências nessa área:</h1>
+                <div class="cards-skills">
+                    <div class="card-SENAI">
+                        <h1>SENAI:</h1>
+                        <p>Curso técnico adquirido junto com o ensino médio com duração de dois anos</p>
+                    </div>
+                    <div class="card-UNIMAR">
+                        <h1>Concurso da Unimar:</h1>
+                        <p>Curso técnico adquirido junto com o ensino médio com duração de dois anos</p>
+                    </div>
+                </div>
 
-        <div class="skills-text">
-            <div class="skill-1">
-                <p></p>
-                <meter value=""></meter>
-            </div>
-            <div class="skill-2">
-                <p></p>
-                <meter value=""></meter>
-            </div>
-            <div class="skill-3">
-                <p></p>
-                <meter value=""></meter>
-            </div>
-            <div class="skill-4">
-                <p></p>
-                <meter value=""></meter>
-            </div>
-        </div>
-    </section>
+                <div class="skills-text">
+                    <div class="skill-HTMLeCSS">
+                        <p>HTML e CSS</p>
+                        <meter value="80" max="100" min="0">
+                        </meter>
+                    </div>
+                    <div class="skill-JS">
+                        <p>JavaScript</p>
+                        <meter value="40" max="100" min="0">
+                        </meter>
+                    </div>
+                    <div class="skill-AR">
+                        <p>Arquitetura de Redes</p>
+                        <meter value="15" max="100" min="0">
+                        </meter>
+                    </div>
+                    <div class="skill-BD">
+                        <p>Banco de Dados</p>
+                        <meter value="65" max="100" min="0">
+                        </meter>
+                    </div>
+                </div>
+            </section>
 
-    <section id="projetos">
-        <div class="cards-projetos">
-            <div class="card-1">
-                <h1></h1>
-                <p></p>
-                <a href=""></a>
-                <img src="" alt="">
-            </div>
-            <div class="card2">
-                <img src="" alt="">
-                <h1></h1>
-                <p></p>
-                <a href=""></a>
-            </div>
-        </div>
-    </section>
+            <section id="projetos">
+                <h1>Projetos</h1>
+                <div class="cards-projetos">
+                    <div class="card-Anatomia">
+                        <h1>Anatomia de Uma Página</h1>
+                        <p>Um projeto onde eu explico como funciona as tag’s semânticas com exemplos e descrições. Link
+                            do projeto:</p>
+                        <a
+                            href="https://anatomia-pq72.onrender.com/index.html">https://anatomia-pq72.onrender.com/index.html</a>
+                        <img src="/img/Anatomia.png" alt="Anatomia">
+                    </div>
+                    <div class="card-Blog">
+                        <img src="/img/BlogSenai.png" alt="BlogSenai">
+                        <h1>Blog SENAI</h1>
+                        <p>Atividade em que monto um blog de notícias. Link do projeto:</p>
+                        <a href="https://blogsenai.onrender.com/">https://blogsenai.onrender.com/</a>
+                    </div>
+                </div>
+            </section>
 
-    <section id="contatos">
-        <h1></h1>
-        <p></p>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </section>
+            <section id="contatos">
+                <h1>Contatos:</h1>
+                <p>Para mais informações, me contate a partir dessas redes:</p>
+                <img src="/img/whatsapp.png" alt="whatsapp">
+                <img src="/img/instagram.png" alt="instagram">
+                <img src="/img/telegram.png" alt="telegram">
+            </section>
+        </div>
+    </main>
 </body>
-</html>
 
+</html>

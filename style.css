@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+}
+
+.div-main{
+    background-color: #020106;
+    max-width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+header {
+    max-width: 80%;
+    margin: auto;
+    background-image: url(/img/Banner-Portifolio.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: irish grover;
+    color: #E5E5E5;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.header-bio {
+    margin-top: 80px;
+    color: #E5E5E5;
+    font-family: "Irish Grover";
+    padding: 40px;
+    border-radius: 20px;
+    width: 60%;
+    padding-left: 80px;
+}
+
+.header-bio h3 {
+    font-size: 25px;
+    color: #E5E5E5; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 24px;
+}
+
+.header-bio h1 {
+    font-size: 70px;
+    color: #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 37px;
+}
+
+.header-bio h2 {
+    font-size: 30px;
+    padding-top: 40px;
+    color: #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 24px;
+    width: 600px;
+}
+
+.header-bio a {
+    text-decoration: none;
+    color: #B8B8B8;
+    font-size: 20px;
+}
+
+
+.header-bio a:hover {
+    color: #E5E5E5;
+    transition: color 0.3s ease;
+}
+
+
+
+/* ============================================================================== */
+
+
+
+.div-main{
+    font-family: "irish grover";
+    color: #E5E5E5;
+}
+
+.perfil-img{
+    display: flex;
+    padding-left: 600px;
+    padding-top: 115px;
+    width: 700;
+    height: 700;
+}
+.div-apresentacao{
+    display: flex;
+    gap: 8px;
+
+}
+.div-apresentacao img{
+    height: 20px;
+}
+
+.perfil-conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.perfil-conteudo h1{
+    color: #A731D5;
+    width: 50%;
+    text-align: center;
+}
+
+.perfil-conteudo p{
+    text-align: center;
+    width: 35%;
+}
