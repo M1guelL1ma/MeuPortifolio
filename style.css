@@ -15,6 +15,16 @@ main {
     margin: auto;
 }
 
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    color: #A731D5;
+    transition: 0.3s;
+}
+
 header {
     max-width: 80%;
     margin: auto;
