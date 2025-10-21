@@ -17,10 +17,10 @@
     <Header>
         <div class="div-header">
             <nav>
-                <a id="perfil">Perfil</a>
-                <a id="skills">Skills</a>
-                <a id="projetos">Projetos</a>
-                <a id="contatos">Contatos</a>
+                <a href="#perfil">Perfil</a>
+                <a href="#skills">Skills</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contatos">Contatos</a>
             </nav>
             <div class="header-bio">
                 <h3>Portifólio</h3>
@@ -35,9 +35,9 @@
 
     <main>
         <div class="div-main">
-            <section id="perfil">
+            <section>
                 <div class="perfil-img">
-                    <img src="/img/Icon.png" alt="Perfil Icon">
+                    <img src="/img/Icon.png" alt="Perfil Icon" id="perfil">
                     <div class="div-apresentacao">
                         <img src="/img/Seta.png" alt="Seta">
                         <p>Olá! Eu sou o Miguel, dono deste portifólio.</p>
@@ -57,8 +57,8 @@
                 </div>
             </section>
 
-            <section id="skills">
-                <h1>Experiências nessa área:</h1>
+            <section>
+                <h1 id="skills">Experiências nessa área:</h1>
                 <div class="cards-skills">
                     <div class="card-SENAI">
                         <h1>SENAI:</h1>
@@ -94,32 +94,38 @@
                 </div>
             </section>
 
-            <section id="projetos">
-                <h1>Projetos</h1>
+            <section>
+                <h1 class="projetos-h1">Projetos</h1>
+                
                 <div class="cards-projetos">
                     <div class="card-Anatomia">
-                        <h1>Anatomia de Uma Página</h1>
-                        <p>Um projeto onde eu explico como funciona as tag’s semânticas com exemplos e descrições. Link
-                            do projeto:</p>
-                        <a
-                            href="https://anatomia-pq72.onrender.com/index.html">https://anatomia-pq72.onrender.com/index.html</a>
+                        <div class="anatomia-direita">
+                            <h1 id="projetos">Anatomia de Uma Página</h1>
+                            <p>Um projeto onde eu explico como funciona as tag’s semânticas com exemplos e descrições. Link
+                                do projeto:</p>
+                            <a target="_blank" href="https://anatomia-pq72.onrender.com/index.html">Clique aqui para ver o projeto!</a>
+                        </div>
                         <img src="/img/Anatomia.png" alt="Anatomia">
                     </div>
                     <div class="card-Blog">
                         <img src="/img/BlogSenai.png" alt="BlogSenai">
-                        <h1>Blog SENAI</h1>
-                        <p>Atividade em que monto um blog de notícias. Link do projeto:</p>
-                        <a href="https://blogsenai.onrender.com/">https://blogsenai.onrender.com/</a>
+                        <div class="blog-esquerda">
+                            <h1>Blog SENAI</h1>
+                            <p>Atividade em que monto um blog de notícias. Link do projeto:</p>
+                            <a href="https://blogsenai.onrender.com/" target="_blank">Clique aqui para ver o projeto!</a>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section id="contatos">
-                <h1>Contatos:</h1>
+            <section class="contatos">
+                <h1 id="contatos">Contatos:</h1>
                 <p>Para mais informações, me contate a partir dessas redes:</p>
-                <img src="/img/whatsapp.png" alt="whatsapp">
-                <img src="/img/instagram.png" alt="instagram">
-                <img src="/img/telegram.png" alt="telegram">
+                <div class="link-contatos">
+                    <a href="https://www.youtube.com/watch?v=2yJgwwDcgV8&list=RD2yJgwwDcgV8&start_radio=1" target="_blank"><img src="/img/whatsapp.png" alt="whatsapp"></a>
+                    <a href="https://www.youtube.com/watch?v=0tIv7mTAAlo" target="_blank"><img src="/img/instagram.png" alt="instagram"></a>
+                    <a href="https://www.youtube.com/watch?v=OM-9Q0ac6Zs&list=RDOM-9Q0ac6Zs&start_radio=1" target="_blank"><img src="/img/telegram.png" alt="telegram"></a>
+                </div>
             </section>
         </div>
     </main>

@@ -35,6 +35,14 @@ header nav {
     font-size: 20px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 50px;
+}
+
 .header-bio {
     margin-top: 80px;
     color: #E5E5E5;
@@ -99,10 +107,11 @@ header nav {
 
 .perfil-img{
     display: flex;
-    padding-left: 600px;
+    padding-left: 625px;
     padding-top: 115px;
     width: 700;
     height: 700;
+    margin: 0 auto;
 }
 .div-apresentacao{
     display: flex;
@@ -121,11 +130,329 @@ header nav {
 
 .perfil-conteudo h1{
     color: #A731D5;
-    width: 50%;
+    width: 40%;
     text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
 }
 
 .perfil-conteudo p{
     text-align: center;
-    width: 35%;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+
+
+/* ============================================================================== */
+
+
+
+#skills {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: #A731D5;
+}
+
+.cards-skills{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.card-SENAI {
+    border-radius: 34px;
+    background: #FBDF81;  
+    box-shadow: 0 4px 60px 0 #A731D5;
+    width: 500px;
+    height: 250px;
+    flex-shrink: 0;
+    color: #030207;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card-SENAI H1 {
+    padding-top: 50px;
+    padding-right: 280px;
+}
+
+.card-SENAI p {
+    padding-top: 50px;
+    font-size: 75;
+    width: 70%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.card-UNIMAR {
+    border-radius: 34px;
+    background: #FBDF81;  
+    box-shadow: 0 4px 60px 0 #A731D5;
+    width: 500px;
+    height: 250px;
+    flex-shrink: 0;
+    color: #030207;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card-UNIMAR h1 {
+    padding-top: 50px;
+    padding-right: 290px;
+    width: 800px;
+}
+
+.card-UNIMAR p {
+    padding-top: 50px;
+    font-size: 75;
+    width: 70%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.skills-text {
+    margin-left: 500px;
+    color: #FBDF81;
+    font-size: 15px;
+}
+
+meter {
+    width: 313px;
+    height: 36px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #A731D5;
+}
+
+.skill-HTMLeCSS {
+    display: flex;
+    gap: 70px;
+    padding-bottom: 25px;
+}
+
+.skill-JS {
+    display: flex;
+    gap: 78px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+}
+
+.skill-AR {
+    display: flex;
+    gap: 70px;
+    padding-bottom: 20px;
+    padding-right: 8px;
+}
+
+.skill-AR p {
+    width: 10%;
+    text-align: center;
+}
+
+.skill-BD {
+    display: flex;
+    gap: 70px;
+    padding-left: 25px;
+}
+
+.skill-BD p {
+    width: 5%;
+    text-align: center;
+}
+
+
+
+/* ============================================================================== */
+
+
+
+.projetos-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    color: #A731D5;
+}
+
+.card-Anatomia {
+    background-color: #A731D5;
+    border-radius: 35px;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    margin-left: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    color: #E5E5E5;
+}
+
+.anatomia-direita {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    color: #E5E5E5;
+}
+
+.anatomia-direita h1 {
+    font-size: 24px;
+    width: 300px;
+}
+
+.anatomia-direita p {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 300px;
+    padding-top: 34px;
+    padding-bottom: 30px;
+}
+
+.anatomia-direita a {
+    font-family: Inter;
+    text-decoration: none;
+    color: inherit;
+}
+
+.anatomia-direita a:hover {
+    color: #FBDF81;
+    transition: 0.3s;
+}
+
+.card-Anatomia img {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px 0 #FBDF81;
+}
+
+.card-Anatomia h1 {
+    font-size: 30px;
+}
+
+.card-Blog {
+    background-color: #A731D5;
+    border-radius: 35px;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    margin-left: 350px;
+    align-items: center;
+    justify-content: center;
+    color: #E5E5E5;
+}
+
+.card-Blog img {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px 0 #FBDF81;
+}
+
+.blog-esquerda {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    color: #E5E5E5;
+}
+
+.blog-esquerda h1 {
+    font-size: 30px;
+}
+
+.blog-esquerda p {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 300px;
+    padding-top: 34px;
+    padding-bottom: 30px;
+}
+
+.blog-esquerda a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Inter;
+}
+
+.blog-esquerda a:hover {
+    color: #FBDF81;
+    transition: 0.3s;
+}
+
+
+
+/* ============================================================================== */
+
+
+
+.contatos {
+    padding-top: 150px;
+    padding-left: 90px;
+}
+
+#contatos {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.contatos p {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 55px;
+}
+
+.link-contatos {
+    display: flex;
+    gap: 50px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+
+
+/* ============================================================================== */
+
+
+
+@media (max-width: 600px) {
+    .div-main {
+      flex-direction: column; 
+    }
+
+    .cards-skills{
+        flex-direction: column;
+    }
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cards-projetos {
+        width: 50%;
+    }
 }
